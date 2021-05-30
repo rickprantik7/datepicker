@@ -1,0 +1,9 @@
+<div class="signin">
+    <h2>Register</h2>
+    <input type="text" placeholder="Name" required>
+    <input type="email" placeholder="Email" #emailsignup required>
+    <input type="password" placeholder="Password" #passwordsignup required>
+    <input type="password" placeholder="Re-Password" required >
+    <button (click)="onSignUp(emailsignup.value,passwordsignup.value)">Sign Up</button>
+  </div>
+  
